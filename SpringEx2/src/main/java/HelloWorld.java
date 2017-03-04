@@ -6,10 +6,13 @@ public class HelloWorld
 	{
 		this.name=name;
 	}
-	public void printHello()
+	public void printHello(String name)
 	{
+		
+		
 		System.out.println("Spring 3 : Hello !" +name);
 		System.out.println("hello raj..");
+		
 	}
 
 }
