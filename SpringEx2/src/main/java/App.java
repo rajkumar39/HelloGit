@@ -7,7 +7,7 @@ public class App
 	{
 		ApplicationContext context=new ClassPathXmlApplicationContext("SpringBeans.xml");
 		HelloWorld obj=(HelloWorld) context.getBean("helloBean");
-		obj.printHello();
+		obj.printHello("Raj Kumar");
 	}
 
 }
